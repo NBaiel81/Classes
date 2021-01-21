@@ -49,10 +49,6 @@ class Desighner(Employee):
         for picture in self.portfolio:
             print(picture)
 
-
-
-
-
 emp1=Employee(first='Maksim',last='Surovkin',email='maksim@gmail.com',salary=4)
 dev1=Developer(first='Baiel',last='Nurmatbekov',email='baiel@gmail.com',salary=160,prog_lang="python")
 mng1=Manager(first='Aigerim',last='Kashkarbekov', email='kashkarbekova@gmail.com',salary=10000, employers=['Nurzhanat','Akylbek','Jarkynai'])
